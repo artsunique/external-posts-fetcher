@@ -1,0 +1,47 @@
+
+
+.my-plugin-container {
+    background: midnightblue !important;
+    color: white;
+    border-radius: 1rem;
+    padding: 4rem;
+    margin: 4rem;
+}
+
+.my-plugin-container h1 {
+    color:greenyellow ;
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+.my-plugin-container h2 {
+    color:greenyellow ;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.my-plugin-container label {
+    color:greenyellow ;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.my-plugin-container .notice-success {
+    background-color: greenyellow;
+    border-left-color: #46b450;
+    color: midnightblue;
+}
+
+.my-plugin-input {
+    border: 1px solid white !important;
+    border-radius: 0 !important;
+    padding: 0.3rem 1rem !important;
+}
+
+.my-plugin-button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}

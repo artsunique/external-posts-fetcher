@@ -25,10 +25,11 @@ The plugin retrieves the post's title, content, excerpt, author, post format, pu
 ## Usage
 
 1. In the plugin settings page, enter the URL of the external WordPress site from which you want to fetch the posts.
-2. Specify the number of posts to fetch per page and the page number to start fetching.
+2. Specify the number of posts to fetch per page, the page number to start fetching, and the post type (post, page, or custom post type).
 3. Click the 'Fetch Posts' button to initiate the import process.
-4. The fetched posts will be listed in the plugin settings page, along with the option to delete each post individually.
+4. The fetched posts will be listed in the plugin settings page, along with the option to edit or delete each post individually.
 5. To delete a fetched post, click the 'Delete' button next to the post in the list.
+6. To edit a fetched post, click the 'Edit' button next to the post in the list, which will take you to the post editor in the WordPress admin area.
 
 **Note:** The fetched posts are imported as drafts. You can review and modify the imported posts as needed before publishing them.
 
@@ -36,6 +37,16 @@ The plugin retrieves the post's title, content, excerpt, author, post format, pu
 
 - WordPress version 4.7 or higher.
 - PHP version 5.6 or higher.
+
+## Changelog
+
+### 1.0.1
+- Added the ability to select the post type (post, page, or custom post type) for import.
+- Fixed issues with duplicate post import.
+- Added the option to delete all fetched posts at once.
+
+### 1.0
+- Initial release.
 
 ## Contributing
 
@@ -47,5 +58,4 @@ This plugin is licensed under the [MIT License](https://opensource.org/licenses/
 
 ## Credits
 
-External WP Posts Importer was developed by [Andreas Burget](http://artsunique.de).
-
+External WP Posts Importer was developed by [Andreas Burget](https://artsunique.de).
