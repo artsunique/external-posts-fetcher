@@ -41,7 +41,6 @@ The plugin retrieves the post's title, content, excerpt, author, post format, pu
 ## Changelog
 
 ### 1.0.1
-- Added the ability to select the post type (post, page, or custom post type) for import.
 - Fixed issues with duplicate post import.
 - Added the option to delete all fetched posts at once.
 
