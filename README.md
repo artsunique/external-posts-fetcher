@@ -1,4 +1,4 @@
-# External WP Posts Importer
+# External WordPress Posts Importer
 
 > Import posts from an external WordPress site into your own WordPress installation.
 
