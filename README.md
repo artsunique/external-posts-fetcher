@@ -1,3 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#000000" width="200" height="200">
+  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.29-11.71L14 9l-4 4-4-4 1.41-1.41L10 10.17V3h4v7.17l2.29-2.29L14 9l-1.71 1.71z"/>
+</svg>
+
 # External WordPress Posts Importer
 
 > Import posts from an external WordPress site into your own WordPress installation.
@@ -40,12 +44,17 @@ The plugin retrieves the post's title, content, excerpt, author, post format, pu
 
 ## Changelog
 
+### 1.1.0
+Added support for custom post types in the import process.
+Improved performance and efficiency of post fetching and importing.
+Enhanced error handling and error messages for a better user experience.
+
 ### 1.0.1
-- Fixed issues with duplicate post import.
-- Added the option to delete all fetched posts at once.
+Fixed issues with duplicate post import.
+Added the option to delete all fetched posts at once.
 
 ### 1.0
-- Initial release.
+Initial release.
 
 ## Contributing
 

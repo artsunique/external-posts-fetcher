@@ -1,27 +1,34 @@
-
+.btn {
+    background: greenyellow !important;
+    color: midnightblue !important;
+    border: greenyellow;
+    border-radius: 1rem;
+    padding: 10px 20px;
+    cursor: pointer;
+}
 
 .my-plugin-container {
     background: midnightblue !important;
     color: white;
     border-radius: 1rem;
-    padding: 4rem;
+    padding: 4rem 6rem 5rem 6rem;
     margin: 4rem;
 }
 
 .my-plugin-container h1 {
-    color:greenyellow ;
+    color: greenyellow;
     font-size: 3rem;
     font-weight: 100;
 }
 
 .my-plugin-container h2 {
-    color:greenyellow ;
+    color: greenyellow;
     font-size: 2rem;
     font-weight: 100;
 }
 
 .my-plugin-container label {
-    color:greenyellow ;
+    color: greenyellow;
     font-size: 1rem;
     font-weight: 600;
 }
@@ -29,7 +36,19 @@
 .my-plugin-container .notice-success {
     background-color: greenyellow;
     border-left-color: #46b450;
+    border-top: transparent;
+    border-bottom: transparent;
+    border-right: transparent;
     color: midnightblue;
+}
+
+.notice-error {
+    background-color: #f44336 !important;
+    border-left: 4px solid #d32f2f;
+    border-top: 0;
+    border-bottom: 0;
+    border-right: 0;
+    color: #fff;
 }
 
 .my-plugin-input {
@@ -38,10 +57,43 @@
     padding: 0.3rem 1rem !important;
 }
 
-.my-plugin-button {
-    background-color: #ff0000;
-    color: #fff;
-    border: none;
+
+.nav-tab-wrapper {
+    border: none !important;
+    margin-top: 30px !important;
+    padding: 0 !important;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Tab Button */
+.nav-tab {
+    flex:auto;
+    background-color: greenyellow;
+    border: 1px solid greenyellow;
+    color: midnightblue;
     padding: 10px 20px;
+    margin-left: 0;
     cursor: pointer;
+    font-weight: bold;
+}
+
+/* Active Tab Button */
+.nav-tab-active {
+    background-color: midnightblue;
+    border: 1px solid greenyellow;
+    color: greenyellow;
+}
+
+/* Tab Content */
+.tab-content {
+    display: none;
+    padding: 1rem;
+    background-color: midnightblue;
+    color: white;
+}
+
+/* Show Active Tab Content */
+.tab-content.active {
+    display: block;
 }
